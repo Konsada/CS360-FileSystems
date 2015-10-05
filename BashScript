@@ -1,0 +1,14 @@
+#!/bin/bash <-- signifies this is a script file (called: shbang)
+DO NOT ADD SPACES
+IF STATEMENTS:
+if [boolean]; then
+    [statement]
+elif [boolean];
+    then[statement]
+else[boolean]
+    then[statement]
+LOOPS IN BASH:
+for i in {1..n}
+do
+    [whatever]
+done

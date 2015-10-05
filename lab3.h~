@@ -1,0 +1,11 @@
+#ifndef LAB3_H
+#define LAB3_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+void mysh(int argc, char *argv[], char *env[]);
+void tokenLine(char *str, char *tokens[]);
+
+#endif

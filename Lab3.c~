@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <uidstd.h>
+
+void main(int argc, char **argv, char **env)
+{
+  char *path[200];
+  int i = 0;
+  for (i = 0; !strncmp("PATH=",env[i]);i++)
+  {
+
+  }
+  printf("%s\n", env[i]);
+}

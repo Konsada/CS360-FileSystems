@@ -1,0 +1,5 @@
+#!/bin/bash
+clear
+gcc -m32 lab3.c lab3.h
+./a.out
+this is my command
